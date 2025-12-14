@@ -183,7 +183,28 @@ Mental health crises are often first expressed online. Automating the detection 
 
 ## 📈 **Results & Key Findings**
 
+### Model Performance Comparison
+
 **Insert table comparing all 4 models**
+<img width="886" height="493" alt="image" src="https://github.com/user-attachments/assets/95a82318-4972-4660-9cc7-48df8033344d" />
+
+*Figure 3: Performance comparison of four models on the test set using weighted Precision, Recall, F1-score, and ROC-AUC.*
+
+
+<img width="900" alt="Models and Model Details" src="https://github.com/user-attachments/assets/d68acead-7e4f-4f8b-9ce0-bc57a992e530" />
+
+*Figure 4: High-level comparison of model features, strengths, and weaknesses across Logistic Regression, XGBoost, BERT, and RoBERTa.*
+
+### Quantitative Results
+
+| Model                | Precision (Weighted) | Recall (Weighted) | F1-score (Weighted) | ROC-AUC |
+|----------------------|----------------------|-------------------|---------------------|---------|
+| Logistic Regression  | 0.82                 | 0.76              | 0.78                | 0.82    |
+| XGBoost              | 0.78                 | 0.80              | 0.79                | 0.79    |
+| BERT                 | 0.94                 | 0.94              | 0.94                | 0.98    |
+| RoBERTa              | 0.52                 | 0.84              | 0.64                | 0.87    |
+
+
 **Key Findings**
 * BERT significantly outperformed traditional models in capturing contextual crisis language.
 * Empahasizing recall reduced false negatives, aligning with real-world safety needs.
