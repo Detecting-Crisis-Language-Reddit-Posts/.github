@@ -8,6 +8,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Sophia Lee       | @taylornguyen | Data Acquisition, Labeling, Exploratory Data Analysis (EDA), Logistic Regression, XGBoost and BERT Modeling|
 | Adrija Rambhatla | [@Adrija0819](https://github.com/Adrija0819) | Data Labeling, BERT Modeling, Exploratory Data Analysis (EDA)|
+| Winnie Nna | [@Winnie-Vallonia](https://github.com/Winnie-Vallonia) | Data Labeling, Exploratory Data Analysis (EDA), Model Evaluation and Comparison|
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
