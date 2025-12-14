@@ -130,9 +130,7 @@ CITE papers, documentations, etc.
 
 ## 🙏 **Acknowledgements** (Optional but encouraged)
 
-Here’s a polished and grammatically corrected version:
-
-> We would like to thank Manav Desai, our AI Studio coach, for his immense support and patience throughout our project development and modeling process. We would also like to thank our challenge advisors, Zachary Allen, Anita Nti, and Dr. Nikki, for their valuable feedback and critiques, which helped us grow.
+We would like to thank Manav Desai, our AI Studio coach, for his immense support and patience throughout our project development and modeling process. We would also like to thank our challenge advisors, Zachary Allen, Anita Nti, and Dr. Nikki, for their valuable feedback and critiques, which helped us grow.
 
 
 ---
