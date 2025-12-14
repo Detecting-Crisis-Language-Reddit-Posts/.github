@@ -177,8 +177,6 @@ Mental health crises are often first expressed online. Automating the detection 
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
-
 **Models Implemented:**
 * Logistic Regression (TF-IDF features)
 * XGBoost
@@ -199,7 +197,6 @@ Mental health crises are often first expressed online. Automating the detection 
 
 ### Model Performance Comparison
 
-**Insert table comparing all 4 models**
 <img width="886" height="493" alt="image" src="https://github.com/user-attachments/assets/95a82318-4972-4660-9cc7-48df8033344d" />
 
 *Figure 3: Performance comparison of four models on the test set using weighted Precision, Recall, F1-score, and ROC-AUC.*
@@ -220,9 +217,21 @@ Mental health crises are often first expressed online. Automating the detection 
 
 **Key Findings**
 * BERT significantly outperformed traditional models in capturing contextual crisis language.
-* Empahasizing recall reduced false negatives, aligning with real-world safety needs.
+* Emphasizing recall reduced false negatives, aligning with real-world safety needs.
 * Some demographic and linguistic bias risks were identified, highlighting the need for careful deployment.
 
+
+---
+
+## 💭 Discussion & Reflection
+
+- **What worked:** BERT achieved the strongest and most balanced performance across metrics. Its contextual understanding helped capture nuanced crisis language beyond keywords (e.g., indirect expressions of distress).
+
+- **Why baseline models struggled:** Logistic Regression and XGBoost relied heavily on surface-level patterns (e.g., TF-IDF/engineered features). This made them less effective at handling context, negation, and subtle phrasing, which are common in real crisis-related posts.
+
+- **Why RoBERTa underperformed BERT:** Although RoBERTa is a more heavily optimized transformer, performance depends on fine-tuning setup and data characteristics. In our experiments, RoBERTa showed higher recall but much lower precision, suggesting it over-flagged posts as crisis-related (more false positives). This highlights that a more complex model does not automatically yield better real-world performance without careful tuning and calibration.
+
+- **Takeaway:** Model selection should be driven by empirical results and task priorities (e.g., recall vs. precision), not just model complexity.
 
 ---
 
