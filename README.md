@@ -190,8 +190,7 @@ Mental health crises are often first expressed online. Automating the detection 
 
 *Figure 3: Performance comparison of four models on the test set using weighted Precision, Recall, F1-score, and ROC-AUC.*
 
-
-<img width="900" alt="Models and Model Details" src="https://github.com/user-attachments/assets/d68acead-7e4f-4f8b-9ce0-bc57a992e530" />
+<img width="1227" height="562" alt="Screenshot 2025-12-14 at 6 15 28 PM" src="https://github.com/user-attachments/assets/a3ce61a3-b9d4-4bdb-b289-d61dd82dfe6c" />
 
 *Figure 4: High-level comparison of model features, strengths, and weaknesses across Logistic Regression, XGBoost, BERT, and RoBERTa.*
 
@@ -231,12 +230,13 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📄 **References** (Optional but encouraged)
+## 📄 **References** 
 
-CITE papers, documentations, etc.
+[1] N. H. Kim, J. M. Kim, D. M. Park, S. R. Ji, and J. W. Kim, “Analysis of depression in social media texts through the Patient Health Questionnaire-9 and natural language processing,” *Digital Health*, vol. 8, Jul. 2022, Art. no. 20552076221114204. doi:10.1177/20552076221114204. https://pmc.ncbi.nlm.nih.gov/articles/PMC9297458/
+
 
 ---
 
-## 🙏 **Acknowledgements** (Optional but encouraged)
+## 🙏 **Acknowledgements**
 
 We would like to thank Manav Desai, our AI Studio coach, for his immense support and patience throughout our project development and modeling process. We would also like to thank our challenge advisors, Zachary Allen, Anita Nti, and Dr. Nikki, for their valuable feedback and critiques, which helped us grow.
