@@ -88,8 +88,11 @@ All required libraries like NumPy, pandas, PyTorch, scikit-learn are installed d
 The datasets are stored in Google Drive.
 To access them, the notebook mounts Google Drive:
 
+```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
+
 
 - **4. Access the datasets**
 
@@ -158,6 +161,18 @@ Mental health crises are often first expressed online. Automating the detection 
 
 *Figure 2: Distribution of topics identified through topic modeling.*
 
+---
+
+## 🧩 Code Highlights
+
+- **Reddit_Cleaning_Pipeline.ipynb**  
+  Cleans and preprocesses Reddit text data (e.g., normalization and filtering) and prepares datasets for modeling.
+
+- **AbtGlobal2A.ipynb**  
+  Main notebook containing the full ML pipeline, including feature engineering (e.g., TF-IDF for traditional models), model training (Logistic Regression, XGBoost, BERT, RoBERTa), and evaluation (precision, recall, F1-score, ROC-AUC) with visual comparisons.
+
+- **Data/** and **Train/Val/Split Files/**  
+  Stores raw/cleaned datasets and the preprocessed train/validation/test splits used by the notebooks.
 
 ---
 
