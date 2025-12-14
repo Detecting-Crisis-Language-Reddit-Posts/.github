@@ -26,8 +26,8 @@
 ---
 ## 📁 Project Structure
 
-This project is hosted in Google Drive:  
-[Abt Global 2A](https://drive.google.com/drive/u/0/folders/12k9X6au9xDd4Oep5bRqfc_DdT0tcpRYA)
+This project is hosted in Google Drive:  [Abt Global 2A](https://drive.google.com/drive/u/0/folders/12k9X6au9xDd4Oep5bRqfc_DdT0tcpRYA)
+
 The project is organized as follows:
 
 - **AbtGlobal2A.ipynb**  
@@ -74,16 +74,16 @@ The project is organized as follows:
 ## 👩🏽‍💻 **Setup and Installation**
 
 This project was developed and run entirely in Google Colab, so no local setup is required.
-**1. Access the notebook**
+- **1. Access the notebook**
 
 Open the provided Google Colab notebook using the shared link: [Google Colab notebook](https://colab.research.google.com/drive/1cdoSySG-F-7g1fmHArz-E6DXJRKNT65X)
 
 
-**2. Install dependencies**
+- **2. Install dependencies**
 
 All required libraries like NumPy, pandas, PyTorch, scikit-learn are installed directly within the notebook using pip.
 
-**3. Set up the environment**
+- **3. Set up the environment**
 
 The datasets are stored in Google Drive.
 To access them, the notebook mounts Google Drive:
@@ -91,20 +91,20 @@ To access them, the notebook mounts Google Drive:
 from google.colab import drive
 drive.mount('/content/drive')
 
-**4. Access the datasets**
+- **4. Access the datasets**
 
 After mounting, the data is accessed via the following path:
 */content/drive/MyDrive/Abt Global 2A/Data/
 
-**5. Run the notebook**
+- **5. Run the notebook**
 
-*Run all cells from top to bottom to reproduce the full pipeline, including:
+* Run all cells from top to bottom to reproduce the full pipeline, including:
 
-*Data loading and preprocessing
+* Data loading and preprocessing
 
-*Model training
+* Model training
 
-*Evaluation and results
+* Evaluation and results
 
 
 ---
@@ -142,10 +142,22 @@ Mental health crises are often first expressed online. Automating the detection 
 * Strong class imbalance required recall-focused evaluation
 * Keywords alone were insufficient—context was critical
 
-**NEED TO EDIT**
+
 **Potential visualizations to include:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
+* 
+
+### Word Cloud Visualization
+<img width="790" alt="wordcloud" src="https://github.com/user-attachments/assets/c79cab13-3717-4de7-86ee-2b9013d00b70" />
+
+*Figure 1: Word cloud of frequent terms in crisis-related Reddit posts.*
+
+### Topic Modeling Results
+<img width="979" alt="Topic Modeling Bar Chart" src="https://github.com/user-attachments/assets/fa4d8c06-e4f3-4da5-933d-35bb266c548c" />
+
+*Figure 2: Distribution of topics identified through topic modeling.*
+
 
 ---
 
