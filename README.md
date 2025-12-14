@@ -149,7 +149,6 @@ Mental health crises are often first expressed online. Automating the detection 
 **Potential visualizations to include:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
-* 
 
 ### Word Cloud Visualization
 <img width="790" alt="wordcloud" src="https://github.com/user-attachments/assets/c79cab13-3717-4de7-86ee-2b9013d00b70" />
