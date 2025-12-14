@@ -24,16 +24,88 @@
 * Balanced performance with **ethical considerations** such as false negatives and fairness.
 
 ---
+## 📁 Project Structure
+
+This project is hosted in Google Drive:  
+[Abt Global 2A](https://drive.google.com/drive/u/0/folders/12k9X6au9xDd4Oep5bRqfc_DdT0tcpRYA)
+The project is organized as follows:
+
+- **AbtGlobal2A.ipynb**  
+  Main Google Colab notebook containing the end-to-end pipeline, including data loading, preprocessing, model training, and evaluation.
+
+- **Reddit_Cleaning_Pipeline.ipynb**  
+  Notebook used for scraping, cleaning, and preprocessing Reddit data prior to modeling.
+
+- **Data/**  
+  Raw and cleaned datasets used across all models.
+
+- **Train/Val/Split Files/**  
+  Preprocessed train, validation, and test splits used for model training and evaluation.
+
+- **Feature Engineering/**  
+  Scripts and notebooks related to text preprocessing and feature extraction.
+
+- **Logistic Regression Model/**  
+  Implementation and experiments for the logistic regression baseline.
+
+- **XGBoost Model/**  
+  Implementation and experiments for the XGBoost model.
+
+- **RoBERTa Model/**  
+  Fine-tuning and evaluation of the RoBERTa deep learning model.
+
+- **Sentiment Analysis/**  
+  Supporting analysis and experiments related to sentiment-based features.
+
+- **Topic Modeling/**  
+  Topic modeling experiments and analysis.
+
+- **Model Evaluation/**  
+  Evaluation scripts, metrics, and result visualizations.
+
+- **Documentation/**  
+  Project documentation and written explanations.
+
+- **Presentations/**  
+  Slides used for project presentations.
+
+
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+This project was developed and run entirely in Google Colab, so no local setup is required.
+**1. Access the notebook**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+Open the provided Google Colab notebook using the shared link: [Google Colab notebook](https://colab.research.google.com/drive/1cdoSySG-F-7g1fmHArz-E6DXJRKNT65X)
+
+
+**2. Install dependencies**
+
+All required libraries like NumPy, pandas, PyTorch, scikit-learn are installed directly within the notebook using pip.
+
+**3. Set up the environment**
+
+The datasets are stored in Google Drive.
+To access them, the notebook mounts Google Drive:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+**4. Access the datasets**
+
+After mounting, the data is accessed via the following path:
+*/content/drive/MyDrive/Abt Global 2A/Data/
+
+**5. Run the notebook**
+
+*Run all cells from top to bottom to reproduce the full pipeline, including:
+
+*Data loading and preprocessing
+
+*Model training
+
+*Evaluation and results
+
 
 ---
 
