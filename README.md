@@ -10,9 +10,9 @@
 | Adrija Rambhatla | [@Adrija0819](https://github.com/Adrija0819) | Data Labeling, BERT Modeling, Exploratory Data Analysis (EDA)|
 | Winnie Nna       | [@Winnie-Vallonia](https://github.com/Winnie-Vallonia) | Data Labeling, Exploratory Data Analysis (EDA), Model Evaluation and Comparison|
 | Tista Manandhar | [@txm19](https://github.com/txm19) | Data Cleaning, Data Labeling |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Mihir Dey     | [@Neuron108](https://github.com/Neuron108)  | Data preprocessing, feature engineering, data validation, future implications                 |
+| Samuel Ifeadi      | [@LeumasCoded](https://github.com/LeumasCoded)      | Feature Engineering, Model selection, model training and optimization  |
+
 
 ---
 
@@ -250,10 +250,11 @@ Mental health crises are often first expressed online. Automating the detection 
 
 ## 📝 **License**
 
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
 This project is licensed under the MIT License.
+
+---
+## 🎖️ **Acknowledgments**
+We would like to thank Manav Desai, our AI Studio coach, for his immense support and patience throughout our project development and modeling process. We would also like to thank our challenge advisors, Zachary Allen, Anita Nti, and Dr. Nikki, for their valuable feedback and critiques, which helped us grow. 
 
 ---
 
