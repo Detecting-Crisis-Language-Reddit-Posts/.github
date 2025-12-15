@@ -6,7 +6,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Sophia Lee       | @taylornguyen | Data Acquisition, Labeling, Exploratory Data Analysis (EDA), Logistic Regression, XGBoost and BERT Modeling|
+| Sophia Lee       | [@sal2267](https://github.com/sal2267) | Data Acquisition, Data Labeling, Exploratory Data Analysis (EDA), Logistic Regression, XGBoost and BERT Modeling|
 | Adrija Rambhatla | [@Adrija0819](https://github.com/Adrija0819) | Data Labeling, BERT Modeling, Exploratory Data Analysis (EDA)|
 | Winnie Nna       | [@Winnie-Vallonia](https://github.com/Winnie-Vallonia) | Data Labeling, Exploratory Data Analysis (EDA), Model Evaluation and Comparison|
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
@@ -36,37 +36,40 @@ The project is organized as follows:
 - **Reddit_Cleaning_Pipeline.ipynb**  
   Notebook used for scraping, cleaning, and preprocessing Reddit data prior to modeling.
 
-- **Data/**  
+- **Data**  
   Raw and cleaned datasets used across all models.
 
-- **Train/Val/Split Files/**  
+- **Train/Val/Split Files**  
   Preprocessed train, validation, and test splits used for model training and evaluation.
 
-- **Feature Engineering/**  
+- **Feature Engineering**  
   Scripts and notebooks related to text preprocessing and feature extraction.
 
-- **Logistic Regression Model/**  
+- **Logistic Regression Model**  
   Implementation and experiments for the logistic regression baseline.
 
-- **XGBoost Model/**  
+- **XGBoost Model**  
   Implementation and experiments for the XGBoost model.
 
-- **RoBERTa Model/**  
+- **XGBoost Model**  
+  Implementation and experiments for the BERT model.
+
+- **RoBERTa Model**  
   Fine-tuning and evaluation of the RoBERTa deep learning model.
 
-- **Sentiment Analysis/**  
+- **Sentiment Analysis**  
   Supporting analysis and experiments related to sentiment-based features.
 
-- **Topic Modeling/**  
+- **Topic Modeling**  
   Topic modeling experiments and analysis.
 
-- **Model Evaluation/**  
+- **Model Evaluation**  
   Evaluation scripts, metrics, and result visualizations.
 
-- **Documentation/**  
+- **Documentation**  
   Project documentation and written explanations.
 
-- **Presentations/**  
+- **Presentations**  
   Slides used for project presentations.
 
 
